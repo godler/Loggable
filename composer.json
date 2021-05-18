@@ -1,0 +1,25 @@
+{
+    "name": "klik/versionable",
+    "description": "",
+    "authors": [
+        {
+            "name": " Mateusz Godlewski",
+            "email": "mateusz.godlewski@orange.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Klik\\Versionable\\ServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Klik\\Versionable\\": ""
+        }
+    }
+}
